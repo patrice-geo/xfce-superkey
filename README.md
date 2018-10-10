@@ -21,12 +21,12 @@ Below are some generic instructions for how to compile xfce-superkey from source
     On Debian-based systems (including Ubuntu and Linux Mint), run:
 
     ```
-    $ sudo apt-get install git gcc make libx11-dev libxtst-dev pkg-config
+    $ sudo apt-get install git gcc make libx11-dev libxtst-dev pkg-config libstdc++-5-dev
     ```
 
     On Fedora-based systems, run:
     ```
-    $ sudo dnf install git gcc make libX11-devel libXtst-devel pkgconfig
+    $ sudo dnf install git gcc make libX11-devel libXtst-devel pkgconfig 
     ```
 
     On some systems you also need to install the `build-essential` (or
